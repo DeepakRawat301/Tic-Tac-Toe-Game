@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="forth.css">
+</head>
+<body>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="r2">New Game</button>
+    </div>
+    <main>
+        <h1>Tic Tac Toe Game</h1>
+        <div class="player-choice">
+            <p>Who will play first?</p>
+            <button id="user-first">User</button>
+            <button id="ai-first">AI</button>
+        </div>
+        <div class="scoreboard">
+            <p>User Wins: <span id="user-score">0</span></p>
+            <p>AI Wins: <span id="ai-score">0</span></p>
+            <p>Draws: <span id="draw-score">0</span></p>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div> 
+        <button id="r1">Reset Game</button>
+    </main>
+    <script src="forth.js"></script>
+</body>  
+</html>
